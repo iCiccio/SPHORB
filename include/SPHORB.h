@@ -28,6 +28,7 @@
 #include <vector>
 #include <stdio.h>
 using namespace cv;
+using namespace std;
 
 namespace cv
 {

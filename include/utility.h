@@ -27,6 +27,7 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
 using namespace cv;
+using namespace std;
 
 typedef vector<DMatch> Matches;
 void ratioTest(const std::vector<Matches>& knMatches, float maxRatio, Matches& goodMatches);
